@@ -3,7 +3,7 @@
 This repository contains a reproducible bioinformatics workflow for analyzing Carbohydrate-active enzyme Gene Clusters (CGCs) in human gut metagenomic samples. The pipeline supports read mapping to a reference CGC database, RPKM abundance calculation, CGC filtering by coverage and breadth, substrate-level enrichment analysis, and data visualization. It is designed to compare CGC profiles between different cohorts, such as healthy and obese individuals.
 
 ---
-
+<pre> CGC_Analysis_Human_Gut_Microbiome/ ├── scripts/ # All analysis scripts (bash, Python, R) │ ├── build_bowtie2_index.sh │ ├── run_bowtie2_mapping.sh │ ├── run_instrain_profile.sh │ ├── merge_scaffold_info.py │ ├── calculate_cgc_rpkm.py │ ├── filter_cgcs_by_cov_br.py │ ├── substrate_enrichment_analysis.R │ └── plot_cgc_visualizations.R ├── data/ # Reference files and annotation tables ├── results/ # Output files (RPKM tables, plots, etc.) ├── example_data/ # (Optional) Small test data and outputs └── README.md # Project documentation </pre>
 ## Repository Structure
 
 <pre>
